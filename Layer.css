@@ -1,0 +1,21 @@
+.popup{
+    position:absolute;
+    top:0;
+    left:30%;
+    z-index:1000;
+    background-color:#999;
+    height:100px;
+    width:100px;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    font-size: 50px;
+}
+.active{display: block;}
+
+.inactive{display: none;}
+

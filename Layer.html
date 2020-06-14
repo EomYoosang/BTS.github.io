@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>레이어 예제</title>
+    <link rel="stylesheet" href="Layer.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function openProfile(event) {
+            var memberID=event.currentTarget;
+            console.log(memberID.name);
+        }
+
+        function closeProfile() {
+            document.getElementsByClassName('popup').style.display = 'none';
+        }
+    </script>
+
+    <div>
+        <ul>
+            <li class id="0" onclick="openProfile()"><span>RM</span></li>
+            <li class id="1" onclick="openProfile()">JIN</li>
+            <li class id="2" onclick="openProfile()">SUGA</li>
+        </ul>
+    </div>
+    <div class="popup" style="display: none">
+        <div class="popup-inner">
+            <ul>
+                <li class id="RM-profile" style="display:none;">
+                    <div class="contents-obj">
+                        <img src="https://ibighit.com/bts/images/bts/profile/member-rm.jpg">
+                    </div>
+                    <div>
+                        <h3>RM</h3>
+                    </div>
+
+                </li>
+                <li class id="JIN-profile" style="display:none;">
+                    <div class="contents-obj">
+                        <img src="https://ibighit.com/bts/images/bts/profile/member-jin.jpg">
+                    </div>
+                    <div>
+                        <h3>JIN</h3>
+                    </div>
+                </li>
+                <li class id="SUGA-profile" style="display:none;">
+                    <div class="contents-obj">
+                        <img src="https://ibighit.com/bts/images/bts/profile/member-suga.jpg">
+                    </div>
+                    <div>
+                        <h3>SUGA</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:closeProfile">close</a>
+    </div>
+
+
+</body></html>

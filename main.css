@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+body, html {width:100%; height:100%;}
+
+#icon_circle {
+    margin:2px;
+    background-color: #999;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    text-align: center;
+
+}
+
+#icon_circle2 {
+    margin:2px;
+    background-color: rgb(100,100,100);
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 1999;
+    background: inherit;
+    height: auto;
+    z-index:1999;
+}
+.bottom_wrapper {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* header */
+#header {
+    width: 100%;
+    min-width:320px;
+    position: fixed;
+    height: auto;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 2000;
+}
+
+#header #header-logo { display: inline-block;padding:13px; z-index:2001;}
+#header #header-menu{display:none;}
+#header #header-menu ol{text-align: center;}
+#header #header-menu ol li{display: inline-block; color:rgb(235,235,235); font-size: 23px; text-transform: uppercase; padding: 0px 10px 10px 10px;}
+
+
+/* content */
+.cont {
+    width: 100%;
+    height: 93%;
+    background: background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #4286f4, );
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #4286f4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    vertical-align: center;
+    overflow: hidden;
+}
+.cont .cont-nav{height:auto;width:100%;text-align:center;}
+.cont .cont-nav .header_logo{display: block;padding:13px;}
+.cont .cont-base{ width: 100%; display: table; table-layout: fixed; overflow: hidden;}
+.cont .cont-base .member{display:table-cell; vertical-align: middle; overflow:hidden; background:#000; z-index:100;}
+.cont .cont-base .member-border{border-right:1px solid #fff;}
+.cont .cont-base .blurEffect{filter:blur(5px);}
+.cont .cont-base .member .snip1131 {
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+.cont .cont-base .member .snip1132 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+    overflow: hidden;
+}
+
+.cont .cont-base .member .snip1132 a{}
+
+.cont .cont-base .member .snip1132{}
+
+.cont .cont-base .member .snip1132 img{
+    overflow: hidden;
+}
+
+.cont .cont-base #RM .snip1132 img.RM {
+    position: relative;
+    right:200px;
+    bottom:100px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+
+.cont .cont-base #RM .snip1132:hover img.RM{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.9);
+}
+
+.cont .cont-base #SG .snip1132 img.SG {
+    position: relative;
+    right:250px;
+    bottom:120px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+
+.cont .cont-base #SG .snip1132:hover img.SG{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont .cont-base #JH .snip1132 img.JH {
+    position: relative;
+    right:220px;
+    bottom:120px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+.cont .cont-base #JH .snip1132:hover img.JH{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont .cont-base #Jin .snip1132 img.Jin {
+    position: relative;
+    right:165px;
+    bottom:100px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+.cont .cont-base #Jin .snip1132:hover img.Jin{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont .cont-base #JK .snip1132 img.JK {
+    position: relative;
+    right:200px;
+    bottom:100px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+.cont .cont-base #JK .snip1132:hover img.JK{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont .cont-base #V .snip1132 img.V {
+    position: relative;
+    right:230px;
+    bottom:95px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+.cont .cont-base #V .snip1132:hover img.V{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont .cont-base #JM .snip1132 img.JM {
+    position: relative;
+    right:150px;
+    bottom:118px;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+.cont .cont-base #JM .snip1132:hover img.JM{
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  transform: scale(0.85);
+}
+
+.cont #profile {position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); width: 100%; height:100%;}
+.cont #profile .dimmed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.profile-inner{position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); width:auto;height:100%; overflow:hidden; }
+.profile-inner ul {height:100%;}
+.profile-inner ul > li{overflow: hidden; height:100%;}
+.profile-inner ul > li > div{}
+.profile-inner ul > li .photo {background:#fff;height:100%;}
+.profile-inner ul > li .photo > img{height: 700px; filter:}
+
+.profile-inner ul > li .profile-contents{position: absolute; top:500px; left: 500px; padding-left: 30px; width:536px; background:rgba(0,0,0,0); vertical-align: middle;text-align: left;}
+.profile-inner ul > li .profile-contents h3{ font-size:40px;}
+.profile-inner ul > li .profile-contents p{padding-left: 6px; font-size: 13px; color:#fff;}
+.profile-inner ul > li .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50vh;
+    background: rgba(0, 0, 0, 0.2) url("https://ibighit.com/bts/images/btn-close.png") no-repeat center;
+    background-size: 100% auto;
+}
+/* footer */
+
+.footer{position: relative; overflow: hidden; display: table; clear: both; background: #272727; width: 100%;  z-index:1000; }
+#profile-footer{height: 7%;}
+#reguler{height:48px;}
+.footer > div {display: table-cell; vertical-align: middle;}
+.footer .sns{line-height: 10px; z-index: 1002;}
+.footer .sns .clearfy{margin-left:20px;}
+.footer .sns li{float: left; margin-right:10px; width:32px; height:32px;overflow:hidden; transform: scale(0.8);}
+.footer .sns .twit{background: url(/BTS/icon/icon.png);}
+.footer .sns .twit{background: url(icon/icon.png);}
+.footer .sns .facebook{background:url(icon/facebook.png) width:32px; }
+.footer .sns .instagram{background:url(icon/instagram.png);}
+.footer .sns .youtube{background: url(icon/youtube.png);}
+.footer .sns li a{z-index: 1003; display: block; background-color:rgba(0,0,0,0.2); width:32px; height:32px;}
+.footer .sns li a:hover{background-color: #fff; }
+.footer .sns li span{color:#fff; font-size:1px;}
+.footer .sns li img{width:32px;}
+.footer .copyright{ font-size: 10px; font-family: 'Camber-M';
+    color:#6b6b6b;text-align: right; text-transform: uppercase;}
+.footer .copyright p span{white-space: nowrap;}
+#last{margin-right:20px;}
