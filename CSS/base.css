@@ -14,7 +14,7 @@ body, html {width:100%; height:100%; }
     z-index: 1999;
     background: inherit;
     height: auto;
-    z-index:1999;
+    z-index:1998;
 }
 
 
@@ -28,15 +28,27 @@ body, html {width:100%; height:100%; }
     text-align: center;
     z-index: 2000;
 }
+#header #header-logo { display: inline-block;padding:13px;}
+#header #header-btn{ position: absolute; top:0;left:0; }
 
-#header #header-logo { display: inline-block;padding:13px; z-index:2001;}
-#header #header-menu{display:none;}
-#header #header-menu ol{text-align: center;}
-#header #header-menu ol li{display: inline-block; color:rgb(235,235,235); font-size: 23px; text-transform: uppercase; padding: 0px 10px 10px 10px;}
+
+#aside-menu{height:100%; widtH: 22%; overflow:hidden;background: rgba(0,0,0,0.6); position: fixed; z-index:1999;vertical-align: middle;animation-duration: 0.5s; animation-name:openMenu;}
+#aside-menu #header-menu{float:left;height:100%; width:100%;vertical-align: middle;text-align: center;}
+#aside-menu #header-menu ol{width:300px; vertical-align: middle; text-align: left;margin-left:50px;margin-top:50%;}
+#aside-menu #header-menu ol li{ color:rgb(235,235,235); font-size: 23px; text-transform: uppercase; padding: 15px;}
+
+@keyframes openMenu{
+    from{
+        width:0%;
+    }
+    to{
+        width:22%;
+    }
+}
 
 /* footer */
 
-.footer{position: relative; overflow: hidden; display: table; clear: both; background: #272727; width: 100%;  z-index:1000; height: 8%;}
+.footer{position: relative; overflow: hidden; display: table; clear: both; background: #272727; width: 100%;  z-index:3000; height: 8%;}
 .footer > div {display: table-cell; vertical-align: middle;}
 .footer .sns{line-height: 10px; z-index: 1002;}
 .footer .sns .clearfy{margin-left:20px;}
