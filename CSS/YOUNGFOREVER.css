@@ -1,0 +1,172 @@
+/* content */
+.bottom_wrapper {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.cont {
+    width: 100%;
+    background: #20AA96;
+
+
+    position: relative;
+}
+
+.cont .album {
+    z-index: 900;
+    padding-top: 200px;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont .album .photo {
+    filter: drop-shadow(2px 2px 2px grey);
+    float: left;
+    width: 50%;
+    height: 650px;
+}
+
+.cont .album .intro {
+    padding-top: 150px;
+    margin-left: 100px;
+    float: left;
+    width: 40%;
+    height: 500px;
+    color: white;
+}
+
+.cont .album .intro .mini-intro {
+    color: #FFF093;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cont .album .intro .title-intro {
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.cont .album .intro .sub-intro {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cont .album2 {
+    margin-top: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    padding-bottom: 60px;
+}
+
+.cont .album2 .preview_title {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: #FFF093;
+    font-weight: 1000;
+    font-size: 50px;
+    text-shadow: 1px 1px 0 grey;
+}
+
+.cont .album2 .real_intro {
+    color: white;
+    font-size: 16px;
+    margin: auto;
+    width: 900px;
+    height: auto;
+}
+
+.cont .track {
+    padding-top: 150px;
+    z-index: 1000;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+.cont .track .album-image {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cont .track .album-image img {
+    filter: drop-shadow(2px 2px 2px grey);
+    width: 80%;
+    height: auto;
+}
+
+.cont .tracklist {
+
+
+
+    background: -webkit-linear-gradient(180deg, rgb(32, 170, 150), rgb(155, 178, 118));
+    background: linear-gradient(180deg, rgb(32, 170, 150), rgb(155, 178, 118));
+
+
+
+    margin: auto;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.cont .tracklist ol {
+    counter-reset: item;
+    list-style-type: none;
+    color: #FFEF99;
+
+}
+
+.cont .tracklist li {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.cont .tracklist li::before {
+    content: counter(item)" ";
+    counter-increment: item;
+}
+
+.cont .tracklist li > span {
+
+    color: white;
+}
+
+.cont .tracklist .track-title {
+    position: relative;
+    bottom: 45px;
+    color: #FFF093;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    text-shadow: 1px 1px 0 grey;
+}
+
+.cont .tracklist .track-body-body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cont .tracklist .track-body-body .track-body {
+    margin: auto;
+    padding-left: 100px;
+    width: 50%;
+    line-height: 35px;
+}
+
+.cont .time {
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+}
