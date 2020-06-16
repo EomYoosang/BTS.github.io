@@ -25,7 +25,8 @@
     position: relative;
     font-size: 60px;
     color: white;
-    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
 }
 
 .gallerylist ul {
