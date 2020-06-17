@@ -104,7 +104,7 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 .cont #profile .btn-close {
-    z-index: 4000;
+    z-index: 4001;
     position: absolute;
     top: 0;
     right: 0;
