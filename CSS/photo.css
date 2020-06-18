@@ -646,6 +646,8 @@ input[id="menuicon"]:checked + label + div .link14 {
     font-weight: bolder;
 }
 
+.element span { text-transform: uppercase;}
+
 .dot1 {
     cursor: pointer;
     height: fit-content;
